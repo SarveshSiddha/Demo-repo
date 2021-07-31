@@ -1,0 +1,5 @@
+tuple1=(60,10,20,30,40)
+list1=list(tuple1)
+list1.append(50)
+tuple1=tuple(list1)
+print(tuple1)
